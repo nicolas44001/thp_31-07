@@ -1,0 +1,3 @@
+Bienvenue sur ta page <%= User.find_by(username: params['username']).username %>
+<br><br><br>
+Voici ta bio <%= User.find_by(username: params['username']).bio %>
